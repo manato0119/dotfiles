@@ -1,0 +1,15 @@
+[user]
+	email = m.ishiwata0119@gmail.com
+	name = manato0119
+[color]
+	ui = auto
+[push]
+	default = simple
+[core]
+	editor = vim -c 'set fileencoding=utf-8'
+	whitespace = cr-at-eol
+	autocrlf = false
+	safecrlf = true
+	filemode = false
+[gui]
+	encoding = utf-8
