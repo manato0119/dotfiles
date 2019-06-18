@@ -131,3 +131,6 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 "================================================================================
 
 
+"send to clipboard"
+vnoremap <silent>y y :call system('nc localhost 8377', @0)<CR>
+vnoremap <silent>d d :call system('nc localhost 8377', @1)<CR>
