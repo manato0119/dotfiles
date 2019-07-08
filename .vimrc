@@ -60,8 +60,8 @@ autocmd FileType php,ctp execute "set shiftwidth=".php_tabnum
 
 " charset
 set encoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
-set fileformats=unix,dos,mac
+set fileencodings=utf-8
+set fileformats=unix
 
 " indentLine
 let g:indentLine_color_term = 244
