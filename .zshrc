@@ -10,3 +10,4 @@ export KCODE=u
 
 # alias
 alias vi='vim'
+alias clip="nc localhost 8377"
